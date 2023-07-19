@@ -3,8 +3,8 @@ import './TodoList.css'; // Import your CSS file for styling
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([
-    { id: 1, text: 'Learn React', isCompleted: false, dateListed: '2023-07-31', dateAccomplished: null },
-    { id: 2, text: 'Build a Todo App', isCompleted: false, dateListed: '2023-08-10', dateAccomplished: null },
+    { id: 1, text: 'Learn React', isCompleted: false, dateListed: '2023-07-19', dateAccomplished: null },
+    { id: 2, text: 'Build a Todo App', isCompleted: false, dateListed: '2023-07-19', dateAccomplished: null },
   ]);
 
   const [newTask, setNewTask] = useState('');
